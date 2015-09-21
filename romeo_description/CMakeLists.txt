@@ -9,6 +9,7 @@ set(PROJECT_DESCRIPTION Model of Romeo robot by Aldebaran Robotics)
 set(PROJECT_URL github.com/laas/romeo)
 
 include(cmake/base.cmake)
+INCLUDE(cmake/python.cmake)
 setup_project()
 # Install launch file
 install(FILES ${CMAKE_SOURCE_DIR}/launch/display.launch
@@ -53,5 +54,7 @@ foreach(file ${MESHES})
     PERMISSIONS OWNER_READ GROUP_READ WORLD_READ OWNER_WRITE
     )
 endforeach()
+
+ADD_SUBDIRECTORY(src)
 
 setup_project_finalize()

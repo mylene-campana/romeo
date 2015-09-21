@@ -126,4 +126,152 @@
     <joint name="REyeYaw"        value="0" />
     <joint name="REyePitch"      value="0" />
   </group_state>
+
+<!-- generated with srdf_filler script -->
+<disable_collisions link1="base_link" link2="body"/>
+
+<disable_collisions link1="body" link2="torso"/>
+
+<disable_collisions link1="torso" link2="NeckYawLink"/>
+
+<disable_collisions link1="NeckYawLink" link2="NeckPitchLink"/>
+
+<disable_collisions link1="NeckPitchLink" link2="HeadPitchLink"/>
+
+<disable_collisions link1="HeadPitchLink" link2="HeadRollLink"/>
+
+<disable_collisions link1="torso" link2="LShoulderPitchLink"/>
+
+<disable_collisions link1="LShoulderPitchLink" link2="LShoulderYawLink"/>
+
+<disable_collisions link1="LShoulderYawLink" link2="LElbowRollLink"/>
+
+<disable_collisions link1="LElbowRollLink" link2="LElbowYawLink"/>
+
+<disable_collisions link1="LElbowYawLink" link2="LWristRollLink"/>
+
+<disable_collisions link1="LWristRollLink" link2="LWristYawLink"/>
+
+<disable_collisions link1="LWristYawLink" link2="l_wrist"/>
+
+<disable_collisions link1="torso" link2="RShoulderPitchLink"/>
+
+<disable_collisions link1="RShoulderPitchLink" link2="RShoulderYawLink"/>
+
+<disable_collisions link1="RShoulderYawLink" link2="RElbowRollLink"/>
+
+<disable_collisions link1="RElbowRollLink" link2="RElbowYawLink"/>
+
+<disable_collisions link1="RElbowYawLink" link2="RWristRollLink"/>
+
+<disable_collisions link1="RWristRollLink" link2="RWristYawLink"/>
+
+<disable_collisions link1="RWristYawLink" link2="r_wrist"/>
+
+<disable_collisions link1="body" link2="LHipYawLink"/>
+
+<disable_collisions link1="LHipYawLink" link2="LHipRollLink"/>
+
+<disable_collisions link1="LHipRollLink" link2="LHipPitchLink"/>
+
+<disable_collisions link1="LHipPitchLink" link2="LKneePitchLink"/>
+
+<disable_collisions link1="LKneePitchLink" link2="LAnklePitchLink"/>
+
+<disable_collisions link1="LAnklePitchLink" link2="l_ankle"/>
+
+<disable_collisions link1="l_ankle" link2="l_toe"/>
+
+<disable_collisions link1="body" link2="RHipYawLink"/>
+
+<disable_collisions link1="RHipYawLink" link2="RHipRollLink"/>
+
+<disable_collisions link1="RHipRollLink" link2="RHipPitchLink"/>
+
+<disable_collisions link1="RHipPitchLink" link2="RKneePitchLink"/>
+
+<disable_collisions link1="RKneePitchLink" link2="RAnklePitchLink"/>
+
+<disable_collisions link1="RAnklePitchLink" link2="r_ankle"/>
+
+<disable_collisions link1="r_ankle" link2="r_toe"/>
+
+<disable_collisions link1="l_wrist" link2="LFinger11Link"/>
+
+<disable_collisions link1="LFinger11Link" link2="LFinger12Link"/>
+
+<disable_collisions link1="LFinger12Link" link2="LFinger13Link"/>
+
+<disable_collisions link1="l_wrist" link2="LFinger21Link"/>
+
+<disable_collisions link1="LFinger21Link" link2="LFinger22Link"/>
+
+<disable_collisions link1="LFinger22Link" link2="LFinger23Link"/>
+
+<disable_collisions link1="l_wrist" link2="LFinger31Link"/>
+
+<disable_collisions link1="LFinger31Link" link2="LFinger32Link"/>
+
+<disable_collisions link1="LFinger32Link" link2="LFinger33Link"/>
+
+<disable_collisions link1="l_wrist" link2="LThumb1Link"/>
+
+<disable_collisions link1="LThumb1Link" link2="LThumb2Link"/>
+
+<disable_collisions link1="LThumb2Link" link2="LThumb3Link"/>
+
+<disable_collisions link1="r_wrist" link2="RFinger11Link"/>
+
+<disable_collisions link1="RFinger11Link" link2="RFinger12Link"/>
+
+<disable_collisions link1="RFinger12Link" link2="RFinger13Link"/>
+
+<disable_collisions link1="r_wrist" link2="RFinger21Link"/>
+
+<disable_collisions link1="RFinger21Link" link2="RFinger22Link"/>
+
+<disable_collisions link1="RFinger22Link" link2="RFinger23Link"/>
+
+<disable_collisions link1="r_wrist" link2="RFinger31Link"/>
+
+<disable_collisions link1="RFinger31Link" link2="RFinger32Link"/>
+
+<disable_collisions link1="RFinger32Link" link2="RFinger33Link"/>
+
+<disable_collisions link1="r_wrist" link2="RThumb1Link"/>
+
+<disable_collisions link1="RThumb1Link" link2="RThumb2Link"/>
+
+<disable_collisions link1="RThumb2Link" link2="RThumb3Link"/>
+
+<disable_collisions link1="l_ankle" link2="l_sole"/>
+
+<disable_collisions link1="r_ankle" link2="r_sole"/>
+
+<disable_collisions link1="HeadRollLink" link2="gaze"/>
+
+<disable_collisions link1="gaze" link2="LEyePitch_link"/>
+
+<disable_collisions link1="LEyePitch_link" link2="CameraLeftEye"/>
+
+<disable_collisions link1="gaze" link2="REyePitch_link"/>
+
+<disable_collisions link1="REyePitch_link" link2="CameraRightEye"/>
+
+<disable_collisions link1="gaze" link2="CameraLeft"/>
+
+<disable_collisions link1="gaze" link2="CameraRight"/>
+
+
+<!-- added manually -->
+<disable_collisions link1="LKneePitchLink" link2="l_ankle"/>
+<disable_collisions link1="RKneePitchLink" link2="r_ankle"/>
+<disable_collisions link1="LShoulderYawLink" link2="LElbowYawLink"/>
+<disable_collisions link1="RShoulderYawLink" link2="RElbowYawLink"/>
+<disable_collisions link1="NeckPitchLink" link2="HeadRollLink"/>
+<disable_collisions link1="r_wrist" link2="RFinger33Link"/>
+<disable_collisions link1="l_wrist" link2="LFinger33Link"/>
+<disable_collisions link1="torso" link2="NeckPitchLink"/>
+<disable_collisions link1="body" link2="LHipPitchLink"/>
+<disable_collisions link1="body" link2="RHipPitchLink"/>
 </robot>
